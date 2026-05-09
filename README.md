@@ -3,7 +3,6 @@
 # Dataset Source Link:
 https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing
 
-C:\Users\brswe\Downloads\may_2026_assignment\ai_project_synthetic_datasets\part_1_neural_network_analysis\customer_churn_nn.csv
 
 # Part 1 Dataset: Customer Churn Neural Network Dataset
 
@@ -20,3 +19,12 @@ Build a neural network model to predict whether a customer is likely to churn.
 - Categorical columns: `region`, `plan_type`, `contract_type`, `payment_method`
 - Numerical columns: tenure, charges, login days, tickets, delays, data usage, satisfaction, complaint recency, discounts, referrals
 - `customer_id` is an identifier and should not be used as a predictive feature.
+
+### Task 1: Dataset Understanding
+
+Number of rows and columns           - print(df.shape)
+Type of input features               - print(df.dtypes)
+Target variable description          - print(df['churn'].decribe())
+Missing value check                  - df.isnull().sum()  
+Basic statistical summary            -
+Distribution of the target variable  -
