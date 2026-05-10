@@ -27,4 +27,15 @@ Type of input features               - print(df.dtypes)
 Target variable description          - print(df['churn'].decribe())
 Missing value check                  - df.isnull().sum()  
 Basic statistical summary            -
-Distribution of the target variable  -
+Distribution of the target variable  - (df['churn'].value_counts()) :  counts the churn column data
+                                       (df['churn'].value_counts(normalize = True)*100) : provides the percentage of churned and unchurned data.churned(1),notchurned(0)
+
+
+### Task 2: Data Preprocessing
+Prepare the data for neural network training.
+
+Handling missing values, if any 
+Encoding categorical columns, if present
+Scaling or normalizing numerical features
+Splitting the dataset into training and testing sets
+
