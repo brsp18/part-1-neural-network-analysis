@@ -1,0 +1,24 @@
+
+Running Experiment 1 (Baseline)...
+  Train Accuracy : 98.44%
+  Test  Accuracy : 98.50%
+  Test  Loss     : 0.3377
+
+Running Experiment 2 (More Neurons)...
+  Train Accuracy : 98.44%
+  Test  Accuracy : 98.50%
+  Test  Loss     : 0.0576
+
+Running Experiment 3 (Tanh + More Epochs)...
+  Train Accuracy : 98.44%
+  Test  Accuracy : 98.25%
+  Test  Loss     : 0.3645
+
+
+===========================================================================
+COMPARISON TABLE
+===========================================================================
+                       Experiment Hidden Layers Neurons  Learning Rate  Epochs Activation  Train Accuracy %  Test Accuracy %  Test Loss
+          Experiment 1 (Baseline)             2  16 → 8          0.001      50       ReLU             98.44            98.50     0.3377
+      Experiment 2 (More Neurons)             2 32 → 16          0.010      50       ReLU             98.44            98.50     0.0576
+Experiment 3 (Tanh + More Epochs)             2  16 → 8          0.001     100       Tanh             98.44            98.25     0.3645
